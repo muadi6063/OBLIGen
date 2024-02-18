@@ -39,7 +39,7 @@ function displayTickets() {
     ticketList.innerHTML = '';
     tickets.forEach(function(ticket) {
         const li = document.createElement('li');
-        li.textContent = `Film: ${ticket.movie}, Navn: ${ticket.name}, E-post: ${ticket.email}, Telefon: ${ticket.phone}, Antall billetter: ${ticket.quantity}`;
+        li.textContent = ` ${ticket.movie}, ${ticket.name}, ${ticket.email}, ${ticket.phone}, ${ticket.quantity}`;
         ticketList.appendChild(li);
     });
 }
