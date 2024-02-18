@@ -4,7 +4,7 @@ Oslomet brukernavn: muadi6063
 
 GitHub brukernavn: muadi6063
 
-GitHub Repo URL : https://github.com/muadi6063/OBLIG1
+GitHub Repo URL : https://github.com/muadi6063/OBLIGen
 
 Fullt Navn: Muhammed Tahir Adil
 
