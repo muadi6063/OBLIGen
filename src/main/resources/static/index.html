@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinobillettbestilling</title>
+</head>
+<body>
+<h1>Kinobillettbestilling</h1>
+<form id="ticketForm">
+    <label for="movie">Velg film:</label>
+    <select id="movie" required>
+        <option value="">Velg film</option>
+        <option value="Spider-Man: No Way Home">Spider-Man: No Way Home</option>
+        <option value="The Batman">The Batman</option>
+        <option value="Dune">Dune</option>
+    </select><br><br>
+    <label for="name">Navn:</label>
+    <input type="text" id="name" required><br><br>
+    <label for="email">E-post:</label>
+    <input type="email" id="email" required><br><br>
+    <label for="phone">Telefon:</label>
+    <input type="tel" id="phone" pattern="[0-9]{8}" required><br><br>
+    <label for="quantity">Antall billetter:</label>
+    <input type="number" id="quantity" min="1" required><br><br>
+    <button type="submit">Kjøp billett</button>
+</form>
+<h2>Alle billetter:</h2>
+<ul id="ticketList"></ul>
+<button id="deleteAll">Slett alle billetter</button>
+<script src="script.js"></script>
+
+
+</body>
+</html>
